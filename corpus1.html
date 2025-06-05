@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corpus Viewer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .sentence-row {
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      text-align: right;
+    }
+
+    .analysis-table {
+      display: none;
+      width: 100%;
+    }
+
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">CWALM Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Left-aligned links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCorpus" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Corpus</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCorpus">
+              <li><a class="dropdown-item" href="corpus1.html">Story 1</a></li>
+              <li><a class="dropdown-item" href="corpus2.html">Story 2</a></li>
+              <li><a class="dropdown-item" href="corpus3.html">Story 3</a></li>
+              <li><a class="dropdown-item" href="corpus4.html">Story 4</a></li>
+              <li><a class="dropdown-item" href="corpus5.html">Story 5</a></li>
+              <li><a class="dropdown-item" href="corpus6.html">Story 6</a></li>
+              <li><a class="dropdown-item" href="corpus7.html">Story 7</a></li>
+              <li><a class="dropdown-item" href="corpus8.html">Story 8</a></li>
+            </ul>
+          </li>
+          <!-- Our TOOL -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ILC4CWALM/DiMorph_Tool">DiMorph Tool</a>
+          </li>
+          <!-- Our Work moved here -->
+          <li class="nav-item">
+            <a class="nav-link" href="ourwork.html">Publication</a>
+          </li>
+        </ul>
+
+        <!-- Right-aligned links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container my-5">
+    <!-- Search Section -->
+    <div class="mb-4">
+      <label for="search-input" class="form-label">Search by TOKEN or Glosses</label>
+      <div class="input-group">
+        <input type="text" id="search-input" class="form-control" placeholder="Enter TOKEN or Glosses" />
+        <button id="search-button" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+
+    <!-- Corpus Display Section -->
+    <div id="corpus-display">
+      <!-- Sentences and analysis tables will be injected here -->
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 ILC4CWALM — All rights reserved Design, development, management and maintenance by Nadia Khlif (CNR-ILC)  | Web hosting by Netlify.app</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Section -->
+  <script>
+    let corpusData = [];
+
+    // Load the JSON data
+    fetch('Data/corpus1.json')
+      .then(response => response.json())
+      .then(data => {
+        corpusData = data.corpus;
+        displaySentences(corpusData);
+      })
+      .catch(error => console.error('Error loading corpus.json:', error));
+
+    // Display sentences
+    function displaySentences(data, searchTerm = "") {
+      const displayDiv = document.getElementById('corpus-display');
+      displayDiv.innerHTML = '';
+
+      data.forEach(sentenceObj => {
+        const sentenceTokens = [...new Set(sentenceObj.sentence.map(t => t.TOKEN || ''))];
+        let sentenceText = sentenceTokens.join(' ');
+        if (searchTerm) {
+          sentenceText = highlightText(sentenceText, searchTerm);
+        }
+
+        // Sentence row with RTL direction
+        const sentenceRow = document.createElement('div');
+        sentenceRow.classList.add('sentence-row', 'my-3', 'p-2', 'border', 'bg-light');
+        sentenceRow.setAttribute('dir', 'rtl');  // Right-to-left direction
+        sentenceRow.innerHTML = sentenceText;
+
+        // Analysis table with LTR direction
+        const analysisTable = document.createElement('table');
+        analysisTable.classList.add('table', 'table-bordered', 'table-hover', 'analysis-table');
+        analysisTable.setAttribute('dir', 'ltr');  // Left-to-right direction
+
+        const headerRow = `
+        <thead class="table-dark">
+          <tr>
+            <th>TOKEN</th>
+            <th>Lemma</th>
+            <th>Glosses</th>
+            <th>Vocalised Token</th>
+            <th>Arabic-msd</th>
+          </tr>
+        </thead>`;
+        const tableBody = document.createElement('tbody');
+
+        sentenceObj.sentence.forEach(tokenObj => {
+          const row = document.createElement('tr');
+          const highlightedToken = highlightText(tokenObj.TOKEN || "", searchTerm);
+          const highlightedGloss = highlightText(tokenObj.Glosses || "", searchTerm);
+
+          row.innerHTML = `
+          <td>${tokenObj.msd ? `${highlightedToken} (${tokenObj.msd})` : highlightedToken}</td>
+          <td>${tokenObj.Lemma || ''}</td>
+          <td>${highlightedGloss}</td>
+          <td>${tokenObj["Vocalised Token"] || ''}</td>
+          <td>${tokenObj["Arabic-msd"] || ''}</td>
+        `;
+          tableBody.appendChild(row);
+        });
+
+        analysisTable.innerHTML = headerRow;
+        analysisTable.appendChild(tableBody);
+
+        // Append to DOM
+        displayDiv.appendChild(sentenceRow);
+        displayDiv.appendChild(analysisTable);
+
+        // Toggle table visibility
+        sentenceRow.addEventListener('click', () => {
+          const isVisible = analysisTable.style.display === 'table';
+          analysisTable.style.display = isVisible ? 'none' : 'table';
+        });
+      });
+    }
+
+    // Highlight search matches
+    function highlightText(text, searchTerm) {
+      if (!searchTerm) return text;
+      const regex = new RegExp(`(${searchTerm})`, "gi");
+      return text.replace(regex, '<span class="highlight">$1</span>');
+    }
+
+    // Search event
+    document.getElementById('search-button').addEventListener('click', () => {
+      const query = document.getElementById('search-input').value.trim().toLowerCase();
+      const filtered = corpusData.filter(s =>
+        s.sentence.some(t =>
+          (t.TOKEN && t.TOKEN.toLowerCase().includes(query)) ||
+          (t.Glosses && t.Glosses.toLowerCase().includes(query))
+        )
+      );
+      displaySentences(filtered, query);
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
