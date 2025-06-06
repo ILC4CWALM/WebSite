@@ -61,17 +61,16 @@
     }
   </style>
 </head>
+<div id="navbar"></div>
 
-<body>
-  <!-- Navbar Section -->
-
-    <script>
+  <script>
     fetch("navbar.html")
       .then(res => res.text())
       .then(data => {
         document.getElementById("navbar").innerHTML = data;
       });
   </script>
+<body>
 
   <!-- CWALM Project Introduction Section -->
   <div class="card mb-4">
