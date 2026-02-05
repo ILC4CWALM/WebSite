@@ -73,7 +73,11 @@
           "Buckwalter-msd": "Al/DET+=Eunoquwd/NOUN=/NSUFF+",
           "Lemma": "عُنْقُود",
           "Glosses": "the+cluster/bunch+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "المهم"
         },
@@ -481,7 +485,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كنت"
         },
@@ -721,7 +729,11 @@
           "Buckwalter-msd": "=n~osA/IMPERFECT_VERB=/IVSUFF_SUBJ+",
           "Lemma": "نْسَى",
           "Glosses": "forget"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كنت"
         },
@@ -931,7 +943,11 @@
           "Buckwalter-msd": "wa/CONJ+Al/DET+=$aEowa*/NOUN-MSA=ap/NSUFF_FEM_SG+",
           "Lemma": "شَعْوَذَة",
           "Glosses": "and+the+theurgy+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كان"
         },
@@ -1081,7 +1097,11 @@
           "Buckwalter-msd": "Al/DET+=kotub/NOUN=/NSUFF+",
           "Lemma": "كْتاب",
           "Glosses": "the+books+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "داز"
         },
@@ -1493,7 +1513,11 @@
           "Buckwalter-msd": "=EaroyAn/ADJ=iyno/NSUFF_MASC_PL+",
           "Lemma": "عَرْيان",
           "Glosses": "naked+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "درت"
         },
@@ -1603,7 +1627,11 @@
           "Buckwalter-msd": "=qoSiyr/ADJ=ap/NSUFF_FEM_SG+",
           "Lemma": "قْصِير",
           "Glosses": "short/small+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "انا"
         },
@@ -1975,7 +2003,11 @@
           "Buckwalter-msd": "h`k~A/FUNC_WORD+/NSUFF+",
           "Lemma": "هاكْذا",
           "Glosses": "this way+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "خنزرت"
         },
@@ -2055,7 +2087,11 @@
           "Buckwalter-msd": "Al/DET+=fajor/NOUN=/NSUFF+",
           "Lemma": "فَجْر",
           "Glosses": "the+dawn+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كنسمع"
         },
@@ -2125,7 +2161,11 @@
           "Buckwalter-msd": "Eoliy/PREP+~a/PRON_1S+",
           "Lemma": "عْلَى",
           "Glosses": "on/above+me"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالت"
         },
@@ -2175,7 +2215,11 @@
           "Buckwalter-msd": ">a/EMP_PART+=banot/NOUN=iy/POSS_PRON_1S+",
           "Lemma": "بَنْت",
           "Glosses": "daughter+my"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -2247,7 +2291,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "جاوبتني"
         },
@@ -2297,7 +2345,11 @@
           "Buckwalter-msd": "wo/CONJ+n/IV1P+=ohaDor/IMPERFECT_VERB=wA/IVSUFF_SUBJ:P+",
           "Lemma": "هْضَر",
           "Glosses": "and+we+speak+[pl.]"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "نعست"
         },
@@ -2525,7 +2577,11 @@
           "Buckwalter-msd": "=HAl/NOUN=/NSUFF+",
           "Lemma": "حال",
           "Glosses": "situation+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -2587,7 +2643,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "مهم"
         },
@@ -3106,7 +3166,11 @@
           "Buckwalter-msd": "Al/DET+=dAr/NOUN=/NSUFF+",
           "Lemma": "دار",
           "Glosses": "the+house/home+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "داز"
         },
@@ -3300,7 +3364,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "واحد"
         },
@@ -3570,7 +3638,11 @@
           "Buckwalter-msd": "=$iyTAn/PROP_NOUN=/NSUFF+",
           "Lemma": "شِيطان",
           "Glosses": "Satan+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وانا"
         },
@@ -3670,7 +3742,11 @@
           "Buckwalter-msd": "bo/PREP+=Sawot/NOUN=iy/POSS_PRON_1S+",
           "Lemma": "صَوْت",
           "Glosses": "with+voice+my"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ماما"
         },
@@ -3710,7 +3786,11 @@
           "Buckwalter-msd": "fo/PREP+=bolAS/N-foreign=t/NSUFF_FEM_SG+hA/POSS_PRON_3FS+",
           "Lemma": "بْلاصَة",
           "Glosses": "in+her place"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "من"
         },
@@ -3810,7 +3890,11 @@
           "Buckwalter-msd": "lo/PREP+=sAE/NOUN=At/NSUFF_FEM_PL+",
           "Lemma": "ساعَة",
           "Glosses": "for/to+hour+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "الجزء"
         },
@@ -3920,7 +4004,11 @@
           "Buckwalter-msd": "doyAl/FUNC_WORD+iy/PRON_1S+",
           "Lemma": "دْيال",
           "Glosses": "for me"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "من"
         },
@@ -4150,7 +4238,11 @@
           "Buckwalter-msd": "ta/PRG_PART+y/IV3MS+=toHaq~aq/IMPERFECT_VERB=/IVSUFF_SUBJ+",
           "Lemma": "تْحَقَّق",
           "Glosses": "it+confirm+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "بقيت"
         },
@@ -4355,7 +4447,11 @@
           "Buckwalter-msd": "=baz~Af/ADV=/NSUFF+",
           "Lemma": "بَزّاف",
           "Glosses": "much+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وليت"
         },
@@ -4713,7 +4809,11 @@
           "Buckwalter-msd": "doyAl/FUNC_WORD+iy/PRON_1S+",
           "Lemma": "دْيال",
           "Glosses": "of+me"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "بابا"
         },
@@ -4973,7 +5073,11 @@
           "Buckwalter-msd": "li/PREP+=humo/PRON_3P=/NSUFF+",
           "Lemma": "لِ",
           "Glosses": "to/for+them+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كان"
         },
@@ -5081,7 +5185,11 @@
           "Buckwalter-msd": "=laHoZ/NOUN=ap/NSUFF_FEM_SG+",
           "Lemma": "لَحْظَة",
           "Glosses": "moment+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "مهم"
         },
@@ -5387,7 +5495,11 @@
           "Buckwalter-msd": "=rAs/NOUN=hA/POSS_PRON_3FS+",
           "Lemma": "راس",
           "Glosses": "head+her"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ولكن"
         },
@@ -5655,7 +5767,11 @@
           "Buckwalter-msd": "Al/DET+=HAl/NOUN=/NSUFF+",
           "Lemma": "حال",
           "Glosses": "the+situation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "من"
         },
@@ -5683,7 +5799,11 @@
           "Buckwalter-msd": "Al/DET+=goriyb/ADJ=ap/NSUFF_FEM_SG+",
           "Lemma": "غْرِيب",
           "Glosses": "the+strange+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "1",
           "msd": "Number"
@@ -5891,7 +6011,11 @@
           "Buckwalter-msd": "Al/DET+=noEAs/NOUN=/NSUFF+",
           "Lemma": "نْعاس",
           "Glosses": "the+sleepiness+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "شويا"
         },
@@ -6001,7 +6125,11 @@
           "Buckwalter-msd": "ka/PRG_PART+t/IV3FS+=ajoriy/IMPERFECT_VERB=/IVSUFF_SUBJ+",
           "Lemma": "جْرَى",
           "Glosses": "she+run+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "انا"
         },
@@ -6081,7 +6209,11 @@
           "Buckwalter-msd": "=t~aSodam/PERFECT_VERB=oto/PVSUFF_SUBJ:1S+",
           "Lemma": "تَّصْدَم",
           "Glosses": "be shocked+I"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "جات"
         },
@@ -6121,7 +6253,11 @@
           "Buckwalter-msd": "=vAniy/ADV=/NSUFF+",
           "Lemma": "ثانِي",
           "Glosses": "again+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -6161,7 +6297,11 @@
           "Buckwalter-msd": "=wAqoE/NOUN=/IVSUFF_SUBJ+",
           "Lemma": "واقْع",
           "Glosses": "happen+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالت"
         },
@@ -6291,7 +6431,11 @@
           "Buckwalter-msd": "=saxof/PERFECT_VERB=ato/PVSUFF_SUBJ:3F+",
           "Lemma": "سْخَف",
           "Glosses": "faint+she+…"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "الجزء"
         },
@@ -6421,7 +6565,11 @@
           "Buckwalter-msd": "=boEiyd/ADJ=ap/NSUFF_FEM_SG+",
           "Lemma": "بْعِيد",
           "Glosses": "distant+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ولدها"
         },
@@ -6593,7 +6741,11 @@
           "Buckwalter-msd": "Eoliy/PREP+~a/PRON_1S+",
           "Lemma": "عْلَى",
           "Glosses": "on+me"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "المهم"
         },
@@ -6713,7 +6865,11 @@
           "Buckwalter-msd": "fo/CONJ+Al/DET+=kulowaAr/N-foreign=/NSUFF+",
           "Lemma": "كُلْوَار",
           "Glosses": "in+the+corridor+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -6791,7 +6947,11 @@
           "Buckwalter-msd": "=h`*A/DEM_PRON_S=/NSUFF+",
           "Lemma": "ذَا",
           "Glosses": "this+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالي",
           "Vocalised Token": "قالِّي",
@@ -6837,7 +6997,11 @@
           "Buckwalter-msd": "moEa/PREP+yaA/PRON_1S+",
           "Lemma": "مْعَ",
           "Glosses": "with+me"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -6927,7 +7091,11 @@
           "Buckwalter-msd": "t/IV2S+=a$orab/IMPERFECT_VERB=/IVSUFF_SUBJ+",
           "Lemma": "شْرَب",
           "Glosses": "you+drink+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "شديتو"
         },
@@ -7205,7 +7373,11 @@
           "Buckwalter-msd": "wo/CONJ+=gobar/PERFECT_VERB=o/PVSUFF_SUBJ:3MS+",
           "Lemma": "غْبَر",
           "Glosses": "and+disappear+he+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "واحد"
         },
@@ -7679,7 +7851,11 @@
           "Buckwalter-msd": "li/PREP+=nA/PRON_1P=/NSUFF+",
           "Lemma": "لِ",
           "Glosses": "to/for+us+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -7806,7 +7982,11 @@
           "Buckwalter-msd": "=marotAH/ADJ=ap/NSUFF_FEM_SG+",
           "Lemma": "مَرْتاح",
           "Glosses": "relaxed+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "بقاو"
         },
@@ -7856,7 +8036,11 @@
           "Buckwalter-msd": "li/PREP+=humo/PRON_3P=/NSUFF+",
           "Lemma": "لِ",
           "Glosses": "to/for+them+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -7916,7 +8100,11 @@
           "Buckwalter-msd": "t/IV2P+=oxAf/IMPERFECT_VERB=wA/IVSUFF_SUBJ:P+",
           "Lemma": "خاف",
           "Glosses": "you+be scared/be afraid/be frightened+[pl.]"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "يالاه"
         },
@@ -8378,7 +8566,11 @@
           "Buckwalter-msd": "Al/DET+=dAr/NOUN=/NSUFF+",
           "Lemma": "دار",
           "Glosses": "the+house+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "شفنا"
         },
@@ -8586,7 +8778,11 @@
           "Buckwalter-msd": "li/PREP+l/DET+=dAr/NOUN=/NSUFF+",
           "Lemma": "دار",
           "Glosses": "to+the+house+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "الجزء"
         },
@@ -8606,7 +8802,11 @@
           "Buckwalter-msd": "Al/DET+=xAmos/ADJ=/NSUFF+",
           "Lemma": "خامْس",
           "Glosses": "the+fifth+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "بالنسبة"
         },
@@ -8693,7 +8893,11 @@
           "Buckwalter-msd": "moEa/PREP+h/PRON_3MS+",
           "Lemma": "مْعَ",
           "Glosses": "with+him"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "رجع"
         },
@@ -8811,7 +9015,11 @@
           "Buckwalter-msd": "Al/DET+={notiqAm/NOUN=/NSUFF+",
           "Lemma": "ٱنْتِقام",
           "Glosses": "the+revenge+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "من"
         },
@@ -9035,7 +9243,11 @@
           "Buckwalter-msd": "Al/DET+=maSiyr/NOUN=/NSUFF+",
           "Lemma": "مَصِير",
           "Glosses": "the+destiny+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كنت"
         },
@@ -9243,7 +9455,11 @@
           "Buckwalter-msd": "fo/PREP+=hodar/NOUN=t/NSUFF_FEM_SG+iy/POSS_PRON_1S+",
           "Lemma": "هَدْرَة",
           "Glosses": "in+speech+my"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "المهم"
         },
@@ -9597,7 +9813,11 @@
           "Buckwalter-msd": "qobal/PREP+/NSUFF+",
           "Lemma": "قْبَل",
           "Glosses": "before+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "أما"
         },
@@ -9881,7 +10101,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وشحال"
         },
@@ -10149,7 +10373,11 @@
           "Buckwalter-msd": "worA/FUNC_WORD+humo/PRON_3MP+",
           "Lemma": "وْرا",
           "Glosses": "behind+them [pl.]+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "من"
         },
@@ -10528,7 +10756,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "فقت"
         },
@@ -10640,7 +10872,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "الجزء",
           "Vocalised Token": "الجُزْء",
@@ -10656,7 +10892,11 @@
           "Buckwalter-msd": "Al/DET+=sAdis/ADJ=/NSUFF+",
           "Lemma": "سادِس",
           "Glosses": "the+sixth+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "شافتني"
         },
@@ -10876,7 +11116,11 @@
           "Buckwalter-msd": "fo/PREP+=dAr/NOUN=/NSUFF+",
           "Lemma": "دار",
           "Glosses": "in+house+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "جاوبتها",
           "Vocalised Token": "جاوَبْتْها",
@@ -10964,7 +11208,11 @@
           "Buckwalter-msd": "=foluws/NOUN=hum/POSS_PRON_3MP+",
           "Lemma": "فَلْس",
           "Glosses": "money+their"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "صراحة"
         },
@@ -11090,7 +11338,11 @@
           "Buckwalter-msd": "fiy/PREP+humo/PRON_3MP+",
           "Lemma": "فِي",
           "Glosses": "in+them [pl.]"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "مي"
         },
@@ -11214,7 +11466,11 @@
           "Buckwalter-msd": "Eoliy/PREP+~a/PRON_1S+",
           "Lemma": "عْلَى",
           "Glosses": "No gloss"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -11324,7 +11580,11 @@
           "Buckwalter-msd": "=vAniy/ADV=/NSUFF+",
           "Lemma": "ثانِي",
           "Glosses": "again+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وبديت"
         },
@@ -11426,7 +11686,11 @@
           "Buckwalter-msd": "=fiEol/NOUN-MSA=/NSUFF+",
           "Lemma": "فِعْل",
           "Glosses": "action+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قررت"
         },
@@ -11958,7 +12222,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "سمعت"
         },
@@ -12042,7 +12310,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -12116,7 +12388,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالت"
         },
@@ -12196,7 +12472,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "نزلت"
         },
@@ -12280,7 +12560,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالت"
         },
@@ -12350,7 +12634,11 @@
           "Buckwalter-msd": "li/PREP+=ko/PRON_2S=/NSUFF+",
           "Lemma": "لِ",
           "Glosses": "to/for+you [masc.sg.]+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قلت"
         },
@@ -12424,7 +12712,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "قالت"
         },
@@ -12518,7 +12810,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وا"
         },
@@ -12650,7 +12946,11 @@
         {
           "TOKEN": "،",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "مي"
         },
@@ -12698,7 +12998,11 @@
         {
           "TOKEN": "؟؟؟",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "عاد"
         },
@@ -12742,7 +13046,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "الجزء"
         },
@@ -12762,7 +13070,11 @@
           "Buckwalter-msd": "Al/DET+=>axiyr/ADJ-MSA=/NSUFF+",
           "Lemma": "أَخِير",
           "Glosses": "the+latest+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "طلعت",
           "Vocalised Token": "طْلَعْتْ",
@@ -12856,7 +13168,11 @@
           "Buckwalter-msd": "n/IV1S+=Horaq/IMPERFECT_VERB=/IVSUFF_SUBJ+hum/IVSUFF_DO:3MP+",
           "Lemma": "حْرَق",
           "Glosses": "I+burn+them"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "طلعت"
         },
@@ -12936,7 +13252,11 @@
           "Buckwalter-msd": "t~aA/ADV+=hiya/PRON_3FS=/NSUFF+",
           "Lemma": "هِيَ",
           "Glosses": "even+it+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وطلبت"
         },
@@ -13036,7 +13356,11 @@
           "Buckwalter-msd": "=rofaD/PERFECT_VERB=o/PVSUFF_SUBJ:3MS+",
           "Lemma": "رْفَض",
           "Glosses": "refuse+he/it+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وقاليا"
         },
@@ -13156,7 +13480,11 @@
           "Buckwalter-msd": "=vAniy/ADV=/NSUFF+",
           "Lemma": "ثانِي",
           "Glosses": "again+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وبدا"
         },
@@ -13196,7 +13524,11 @@
           "Buckwalter-msd": "wo/CONJ+=mo$A/PERFECT_VERB=/PVSUFF_SUBJ:3MS+",
           "Lemma": "مْشَى",
           "Glosses": "and+go+he/it"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "فديك"
         },
@@ -13552,7 +13884,11 @@
           "Buckwalter-msd": "bo/PREP+=$owiy~ap/ADV=/NSUFF+",
           "Lemma": "شْوِيَّة",
           "Glosses": "by+little+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وانا"
         },
@@ -13690,7 +14026,11 @@
           "Buckwalter-msd": "=>uxorY/ADJ=/NSUFF+",
           "Lemma": "آخُر",
           "Glosses": "other/another+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "بديت"
         },
@@ -13800,7 +14140,11 @@
         {
           "TOKEN": ".",
           "msd": "Punctuation"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "كنت"
         },
@@ -13928,7 +14272,11 @@
           "Buckwalter-msd": "=kul~o$iy/NOUN=/NSUFF+",
           "Lemma": "كُلّْشِي",
           "Glosses": "everything+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "عطيت"
         },
@@ -14092,7 +14440,11 @@
           "Buckwalter-msd": "=sokat/PERFECT_VERB=o/PVSUFF_SUBJ:3MS+",
           "Lemma": "سْكَت",
           "Glosses": "be quiet/keep quiet/shut up+he/it+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "لكنني",
           "Vocalised Token": "لٰكِنَّنِي",
@@ -14180,7 +14532,11 @@
           "Buckwalter-msd": "wa/CONJ+Al/DET+=>dEy/N-MSA=ap/NSUFF_FEM_SG+",
           "Lemma": "دُعاء",
           "Glosses": "and+the+prayer+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ومشيت"
         },
@@ -14310,7 +14666,11 @@
           "Buckwalter-msd": "wo/CONJ+=DAHok/ADJ=iyno/NSUFF_MASC_PL+",
           "Lemma": "ضاحْك",
           "Glosses": "and+laughter+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ومن"
         },
@@ -14528,7 +14888,11 @@
           "Buckwalter-msd": "=wAluw/ADV=/NSUFF+",
           "Lemma": "والو",
           "Glosses": "nothing+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وكان"
         },
@@ -14663,7 +15027,11 @@
           "Buckwalter-msd": "=dAr/PERFECT_VERB=to/PVSUFF_SUBJ:3F+",
           "Lemma": "دار",
           "Glosses": "do+she+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وياما"
         },
@@ -14857,7 +15225,11 @@
           "Buckwalter-msd": "li/PREP+=ya/PRON_1S=/NSUFF+",
           "Lemma": "لِ",
           "Glosses": "to/for+me+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "ومشيت"
         },
@@ -14987,7 +15359,11 @@
           "Buckwalter-msd": "ka/PRG_PART+n/IV1S+=abokiy/IMPERFECT_VERB=/IVSUFF_SUBJ+",
           "Lemma": "بْكَى",
           "Glosses": "I+weep+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "وانا"
         },
@@ -15217,7 +15593,11 @@
           "Buckwalter-msd": "wa/CONJ+Al/DET+=xaTow/NOUN=At/NSUFF_FEM_PL+",
           "Lemma": "خَطْوَة",
           "Glosses": "and+the+steps/strides+"
-        },
+        }
+      ]
+    },
+    {
+      "sentence": [
         {
           "TOKEN": "النهَاية"
         },
