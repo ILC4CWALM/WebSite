@@ -619,11 +619,19 @@
     {
       "sentence": [
         {
-          "TOKEN": "من بعد",
-          "Vocalised Token": "مَنْ بَعْدْ",
-          "Arabic-msd": "=مَنْ بَعْدْ/MULTIWORD+",
-          "Buckwalter-msd": "=mano baEodo/MULTIWORD+",
-          "Lemma": "مَنْ بَعْدْ",
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "بعد",
+          "Vocalised Token": "بَعْدْ",
+          "Arabic-msd": "بَعْدْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "baEodo/PREP+/NSUFF+",
+          "Lemma": "بَعْدْ",
           "Glosses": "after+"
         },
         {
@@ -2131,12 +2139,20 @@
           "msd": "Punctuation"
         },
         {
-          "TOKEN": "على الأقل",
-          "Vocalised Token": "عْلَى الأَقَلّ",
-          "Arabic-msd": "=عْلَى الأَقَلّ/MULTIWORD+",
-          "Buckwalter-msd": "=EolaY >aqal~/MULTIWORD+",
-          "Lemma": "عْلَى الأَقَلّ",
-          "Glosses": "at least"
+          "TOKEN": "على",
+          "Vocalised Token": "عْلَى",
+          "Arabic-msd": "عْلَى/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "EolaY/PREP+/NSUFF+",
+          "Lemma": "عْلَى",
+          "Glosses": "on/above+"
+        },
+        {
+          "TOKEN": "الأقل",
+          "Vocalised Token": "الأَقَلّ",
+          "Arabic-msd": "ال/DET+=أَقَلّ/ADJ=/NSUFF+",
+          "Buckwalter-msd": "Al/DET+=>aqal~/ADJ=/NSUFF+",
+          "Lemma": "أَقَلّ",
+          "Glosses": "the+less/least/smaller/smallest/minimum+"
         },
         {
           "TOKEN": "مابقاتش",
@@ -2203,11 +2219,19 @@
           "Glosses": "few+[fem.sg.]"
         },
         {
-          "TOKEN": "من بعد",
-          "Vocalised Token": "مَنْ بَعْدْ",
-          "Arabic-msd": "=مَنْ بَعْدْ/MULTIWORD+",
-          "Buckwalter-msd": "=mano baEodo/MULTIWORD+",
-          "Lemma": "مَنْ بَعْدْ",
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "بعد",
+          "Vocalised Token": "بَعْدْ",
+          "Arabic-msd": "بَعْدْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "baEodo/PREP+/NSUFF+",
+          "Lemma": "بَعْدْ",
           "Glosses": "after+"
         },
         {
@@ -2636,11 +2660,11 @@
         },
         {
           "TOKEN": "بحالا",
-          "Vocalised Token": "بْحالَة",
-          "Arabic-msd": "=بْحالَة/MULTIWORD+",
-          "Buckwalter-msd": "=boHAlap/MULTIWORD+",
-          "Lemma": "بْحالَة",
-          "Glosses": "likewise"
+          "Vocalised Token": "بْحَالَا",
+          "Arabic-msd": "=بْحَالَا/ADV=/NSUFF+",
+          "Buckwalter-msd": "=boHaAlaA/ADV=/NSUFF+",
+          "Lemma": "بْحَالَا",
+          "Glosses": "as if+"
         },
         {
           "TOKEN": "الزمن",
@@ -3443,12 +3467,20 @@
           "Glosses": "to+the+driving+[fem.sg.]"
         },
         {
-          "TOKEN": "من جديد",
-          "Vocalised Token": "مَن جْدِيد",
-          "Arabic-msd": "=مَن جْدِيد/MULTIWORD+",
-          "Buckwalter-msd": "=man jodiyd/MULTIWORD+",
-          "Lemma": "مَن جْدِيد",
-          "Glosses": "again"
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "جديد",
+          "Vocalised Token": "جْدِيد",
+          "Arabic-msd": "=جْدِيد/ADJ=/NSUFF+",
+          "Buckwalter-msd": "=jodiyd/ADJ=/NSUFF+",
+          "Lemma": "جْدِيد",
+          "Glosses": "new/modern+"
         },
         {
           "TOKEN": ".",
@@ -3675,12 +3707,20 @@
           "msd": "Punctuation"
         },
         {
-          "TOKEN": "وحتى من",
-          "Vocalised Token": "وْحَتَّى مَنْ",
-          "Arabic-msd": "=وْحَتَّى مَنْ/MULTIWORD+",
-          "Buckwalter-msd": "=woHat~aY mano/MULTIWORD+",
-          "Lemma": "وْحَتَّى مَنْ",
-          "Glosses": "and even"
+          "TOKEN": "وحتى",
+          "Vocalised Token": "وْحَتَّى",
+          "Arabic-msd": "وْ/CONJ+حَتَّى/FUNC_WORD+=null=/NSUFF+",
+          "Buckwalter-msd": "wo/CONJ+Hat~aY/FUNC_WORD+/NSUFF+",
+          "Lemma": "حَتَّى",
+          "Glosses": "and+even+"
+        },
+        {
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
         },
         {
           "TOKEN": "البصلة",
@@ -4859,12 +4899,28 @@
           "Glosses": "the+thing+"
         },
         {
-          "TOKEN": "واللي ليها ليها",
-          "Vocalised Token": "وْاللِّي لِها لِها",
-          "Arabic-msd": "=وْاللِّي لِها لِها/MULTIWORD+",
-          "Buckwalter-msd": "=woAll~iy lihA lihA/MULTIWORD+",
-          "Lemma": "وْاللِّي لِها لِها",
-          "Glosses": "and whatever the consequences"
+          "TOKEN": "واللي",
+          "Vocalised Token": "وْاللِّي",
+          "Arabic-msd": "وْ/CONJ+=اللِّي/REL_PRON=/NSUFF+",
+          "Buckwalter-msd": "wo/CONJ+=All~iy/REL_PRON=/NSUFF+",
+          "Lemma": "اللِّي",
+          "Glosses": "and+which/who/whom/what+"
+        },
+        {
+          "TOKEN": "ليها",
+          "Vocalised Token": "لِها",
+          "Arabic-msd": "لِ/PREP+=ها/PRON_3FS=/NSUFF+",
+          "Buckwalter-msd": "li/PREP+=hA/PRON_3FS=/NSUFF+",
+          "Lemma": "لِ",
+          "Glosses": "to/for+it/her+"
+        },
+        {
+          "TOKEN": "ليها",
+          "Vocalised Token": "لِها",
+          "Arabic-msd": "لِ/PREP+=ها/PRON_3FS=/NSUFF+",
+          "Buckwalter-msd": "li/PREP+=hA/PRON_3FS=/NSUFF+",
+          "Lemma": "لِ",
+          "Glosses": "to/for+it/her+"
         },
         {
           "TOKEN": ".",
@@ -5087,12 +5143,20 @@
           "msd": "Punctuation"
         },
         {
-          "TOKEN": "من جديد",
-          "Vocalised Token": "مَن جْدِيد",
-          "Arabic-msd": "=مَن جْدِيد/MULTIWORD+",
-          "Buckwalter-msd": "=man jodiyd/MULTIWORD+",
-          "Lemma": "مَن جْدِيد",
-          "Glosses": "again"
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "جديد",
+          "Vocalised Token": "جْدِيد",
+          "Arabic-msd": "=جْدِيد/ADJ=/NSUFF+",
+          "Buckwalter-msd": "=jodiyd/ADJ=/NSUFF+",
+          "Lemma": "جْدِيد",
+          "Glosses": "new/modern+"
         },
         {
           "TOKEN": ".",
@@ -5439,12 +5503,20 @@
           "Glosses": "the+driving+[fem.sg.]"
         },
         {
-          "TOKEN": "من جديد",
-          "Vocalised Token": "مَن جْدِيد",
-          "Arabic-msd": "=مَن جْدِيد/MULTIWORD+",
-          "Buckwalter-msd": "=man jodiyd/MULTIWORD+",
-          "Lemma": "مَن جْدِيد",
-          "Glosses": "again"
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "جديد",
+          "Vocalised Token": "جْدِيد",
+          "Arabic-msd": "=جْدِيد/ADJ=/NSUFF+",
+          "Buckwalter-msd": "=jodiyd/ADJ=/NSUFF+",
+          "Lemma": "جْدِيد",
+          "Glosses": "new/modern+"
         },
         {
           "TOKEN": "،",
@@ -5659,12 +5731,20 @@
           "msd": "Punctuation"
         },
         {
-          "TOKEN": "تبارك الله",
-          "Vocalised Token": "تْبارَك اللّٰه",
-          "Arabic-msd": "تْبارَك اللّٰه/MULTIWORD+",
-          "Buckwalter-msd": "tobArak All~`h/MULTIWORD+",
-          "Lemma": "تْبارَك اللّٰه",
-          "Glosses": "blessed be Allah"
+          "TOKEN": "تبارك",
+          "Vocalised Token": "تْبارَك",
+          "Arabic-msd": "=تْبارَك/PV=/NSUFF+",
+          "Buckwalter-msd": "=tobArak/PV=/NSUFF+",
+          "Lemma": "تْبارَك",
+          "Glosses": "be blessed+"
+        },
+        {
+          "TOKEN": "الله",
+          "Vocalised Token": "اللّٰه",
+          "Arabic-msd": "=اللّٰه/PROP_NOUN=/NSUFF+",
+          "Buckwalter-msd": "=All~`h/PROP_NOUN=/NSUFF+",
+          "Lemma": "اللَّه",
+          "Glosses": "Allah/God+"
         },
         {
           "TOKEN": "عليه",
@@ -5867,12 +5947,20 @@
           "Glosses": "to/for+the+driving+[fem.sg.]"
         },
         {
-          "TOKEN": "من جديد",
-          "Vocalised Token": "مَن جْدِيد",
-          "Arabic-msd": "=مَن جْدِيد/MULTIWORD+",
-          "Buckwalter-msd": "=man jodiyd/MULTIWORD+",
-          "Lemma": "مَن جْدِيد",
-          "Glosses": "again"
+          "TOKEN": "من",
+          "Vocalised Token": "مَنْ",
+          "Arabic-msd": "مَنْ/PREP+=null=/NSUFF+",
+          "Buckwalter-msd": "mano/PREP+/NSUFF+",
+          "Lemma": "مَنْ",
+          "Glosses": "from+"
+        },
+        {
+          "TOKEN": "جديد",
+          "Vocalised Token": "جْدِيد",
+          "Arabic-msd": "=جْدِيد/ADJ=/NSUFF+",
+          "Buckwalter-msd": "=jodiyd/ADJ=/NSUFF+",
+          "Lemma": "جْدِيد",
+          "Glosses": "new/modern+"
         },
         {
           "TOKEN": ".",

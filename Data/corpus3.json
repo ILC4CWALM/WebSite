@@ -2268,7 +2268,7 @@
           "Arabic-msd": "=شْحال/ADV=/NSUFF+",
           "Buckwalter-msd": "=$oHAl/ADV=/NSUFF+",
           "Lemma": "شْحال",
-          "Glosses": "long time"
+          "Glosses": "No gloss"
         },
         {
           "TOKEN": "هادي",
@@ -16411,12 +16411,20 @@
           "Glosses": "some+"
         },
         {
-          "TOKEN": "نص نص",
-          "Vocalised Token": "نُصّْ نُصّْ",
-          "Arabic-msd": "=نُصّْ نُصّْ/MULTIWORD+",
-          "Buckwalter-msd": "=nuS~o nuS~o/MULTIWORD+",
-          "Lemma": "نُصّ نُصّ",
-          "Glosses": "espresso"
+          "TOKEN": "نص",
+          "Vocalised Token": "نُصّ",
+          "Arabic-msd": "=نُصّ/NOUN=/NSUFF+",
+          "Buckwalter-msd": "=nuS~/NOUN=/NSUFF+",
+          "Lemma": "نُصّ",
+          "Glosses": "half+"
+        },
+        {
+          "TOKEN": "نص",
+          "Vocalised Token": "نُصّ",
+          "Arabic-msd": "=نُصّ/NOUN=/NSUFF+",
+          "Buckwalter-msd": "=nuS~/NOUN=/NSUFF+",
+          "Lemma": "نُصّ",
+          "Glosses": "half+"
         },
         {
           "TOKEN": "الله",
@@ -18407,12 +18415,20 @@
           "Glosses": "girlfriend+"
         },
         {
-          "TOKEN": "تم تم",
-          "Vocalised Token": "تَمّْ تَمّْ",
-          "Arabic-msd": "=تَمّْ تَمّْ/MULTIWORD+",
-          "Buckwalter-msd": "=tam~o tam~o/MULTIWORD+",
-          "Lemma": "تَمّْ تَمّْ",
-          "Glosses": "immediately"
+          "TOKEN": "تم",
+          "Vocalised Token": "تَمَّ",
+          "Arabic-msd": "=تَمَّ/ADV=/NSUFF+",
+          "Buckwalter-msd": "=tam~a/ADV=/NSUFF+",
+          "Lemma": "تَمَّ",
+          "Glosses": "there+"
+        },
+        {
+          "TOKEN": "تم",
+          "Vocalised Token": "تَمَّ",
+          "Arabic-msd": "=تَمَّ/ADV=/NSUFF+",
+          "Buckwalter-msd": "=tam~a/ADV=/NSUFF+",
+          "Lemma": "تَمَّ",
+          "Glosses": "there+"
         },
         {
           "TOKEN": "جاوباتني",
@@ -19811,12 +19827,20 @@
           "Glosses": "some+"
         },
         {
-          "TOKEN": "واحد شوية",
-          "Vocalised Token": "واحْدْ شْوِيَّة",
-          "Arabic-msd": "=واحْدْ شْوِيَّة/MULTIWORD+",
-          "Buckwalter-msd": "=wAHodo $owiy~ap/MULTIWORD+",
-          "Lemma": "واحْدْ شْوِيَّة",
-          "Glosses": "suddenly+"
+          "TOKEN": "واحد",
+          "Vocalised Token": "واحْد",
+          "Arabic-msd": "=واحْد/NOUN=/NSUFF+",
+          "Buckwalter-msd": "=wAHod/NOUN=/NSUFF+",
+          "Lemma": "واحْد",
+          "Glosses": "one/someone+"
+        },
+        {
+          "TOKEN": "شوية",
+          "Vocalised Token": "شْوِيَّة",
+          "Arabic-msd": "=شْوِيَّة/ADV=/NSUFF+",
+          "Buckwalter-msd": "=$owiy~ap/ADV=/NSUFF+",
+          "Lemma": "شْوِيَّة",
+          "Glosses": "a little/a little bit+"
         },
         {
           "TOKEN": "خرج",

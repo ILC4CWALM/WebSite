@@ -33503,7 +33503,12 @@
           "Glosses": "the+facial make-up+"
         },
         {
-          "TOKEN": "واخا"
+          "TOKEN": "واخا",
+          "Vocalised Token": "وَخّا",
+          "Arabic-msd": "=وَخّا/ADV=/NSUFF+",
+          "Buckwalter-msd": "=wax~A/ADV=/NSUFF+",
+          "Lemma": "وَخّا",
+          "Glosses": "in spite of/despite+"
         },
         {
           "TOKEN": "مبغاتش",

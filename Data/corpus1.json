@@ -6762,7 +6762,12 @@
           "Glosses": "the+dinner/supper+"
         },
         {
-          "TOKEN": "فاش"
+          "TOKEN": "فاش",
+          "Vocalised Token": "فَاشْ",
+          "Arabic-msd": "=فَاشْ/ADV=/NSUFF+",
+          "Buckwalter-msd": "faA$o/ADV+/NSUFF+",
+          "Lemma": "فاش",
+          "Glosses": "when+"
         },
         {
           "TOKEN": "بقات",

@@ -4,6 +4,7 @@
       "sentence": [
         {
           "TOKEN": "السلام",
+          "Vocalised Token": "السلام",
           "Arabic-msd": "عْلِي/PREP+=null=كُم/PRON_2P+",
           "Buckwalter-msd": "Eoliy/PREP+kum/PRON_2P+",
           "Lemma": "سَلام",
