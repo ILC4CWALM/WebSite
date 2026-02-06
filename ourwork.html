@@ -2,144 +2,184 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications - ILC4CWALM</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-  <style>
-    .article-card {
-      border: 1px solid #dee2e6;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Publications & Presentations - ILC4CWALM</title>
 
-    .article-card h5 {
-      font-weight: 600;
-      color: #2c3e50;
-    }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    .article-meta {
-      font-size: 0.9rem;
-      color: #6c757d;
-    }
+<style>
+.article-card {
+border: 1px solid #dee2e6;
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+background-color: #fff;
+}
 
-    .article-authors {
-      font-style: italic;
-      margin-top: 10px;
-      color: #555;
-    }
-  </style>
+.article-card h5 {
+font-weight: 600;
+color: #2c3e50;
+}
+
+.article-meta {
+font-size: 0.9rem;
+color: #6c757d;
+}
+
+.article-authors {
+font-style: italic;
+margin-top: 10px;
+color: #555;
+}
+</style>
 </head>
-<div id="navbar"></div>
 
-  <script>
-    fetch("navbar.html")
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("navbar").innerHTML = data;
-      });
-  </script>
-
-  
 <body>
-  
-  <!-- About Section -->
-  <div class="container my-5">
-    <h1 class="text-center mb-5">Publications about CWALM Project</h1>
 
-    <!-- Articles Section -->
-    <section>
-      <h2 class="mb-4">Articles</h2>
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>A Proposed Approach for Extracting Semantic and Lexical Relations for Low-Resource Languages: A Case Study of Darija</h5>
-        <p class="article-authors">Authors: Said Belbachir, Nadia Khlif, Mohamed Chahhou, Mohammed El Mohajir, Azzeddine Mazroui, Ouafae Nahli</p>
-        <p class="article-meta">Conference: IEEE CiSt 2025 – 8th Conference on Information Science and Technology. Marrakech–Ouarzazate, Morocco. October 2025. (In press).</p>
-      </div>
+<!-- Navbar -->
+<div id="navbar"></div>
+<script>
+fetch("navbar.html")
+.then(res => res.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+</script>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>Enhancing Arabic Dialect Analysis: Introducing DIMORPH for Darija</h5>
-        <p class="article-authors">Authors: Nadia Khlif, Azzeddine Mazroui, Ouafae Nahli</p>
-        <p class="article-meta">Journal: Lingue e Linguaggio. Publisher=Società editrice il Mulino. Published: June 3, 2025. DOI: 10.1418/116951.<br>
-        <a href="https://www.rivisteweb.it/doi/10.1418/116951"><button type="button" class="btn btn-dark">Link</button></a>      
-      </div>
+<div class="container my-5">
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>A Robust Morphological Analysis System for the Moroccan Dialect: Design and Evaluation</h5>
-        <p class="article-authors">Authors: Khlif Nadia, Mazroui Azzedine, Nahli Ouafae</p>
-        <p class="article-meta">Conference: STSE 2025 – International Conference on Smart Technologies for Sustainable Environment. Errachidia, Morocco. (In press).</p>
-      </div>
+<h1 class="text-center mb-5">Publications & Presentations</h1>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>Challenges and Progress in Constructing Arabic Dialect Corpora and Linguistic Tools: A Focus on Moroccan and Tunisian Dialects</h5>
-        <p class="article-authors">Authors: Ouafae Nahli; Elisa Gugliotta; Nadia Khlif; Benotto Giulia</p>
-        <p class="article-meta">Conference: 2023 7th IEEE Congress on Information Science and Technology (CiSt). DOI:0.1109/CiSt56084.2023.10410009<br>
-        <a href="https://ieeexplore.ieee.org/document/10410009"><button type="button" class="btn btn-dark">Link</button></a>
-        
-      </div>
+<!-- ================= PUBLICATIONS ================= -->
+<h2 class="mb-4">Publications</h2>
 
-    </section>
-    <!-- Presentations Section -->
-    <section class="mt-5">
-      <h2 class="mb-4">Presentations</h2>
+<!-- ===== 2026 ===== -->
+<h4 class="mt-4">2026</h4>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>A Robust Morphological Analysis System for the Moroccan Dialect: Design and Evaluation</h5>
-        <p class="article-meta">Date: 25 April 2025<br>
-          Conference: STSE 2025 – International Conference on Smart Technologies for Sustainable Environment<br>
-          Location: Errachidia, Morocco (In publishing)</p>
-        <p class="article-authors">Presenter: Nadia Khlif</p>
-        <a href="Data/STSE_2025.pdf" download class="btn btn-outline-success mt-2">Download Slides</a>
-      </div>
+<div class="article-card" data-aos="fade-up">
+<h5>A Robust Morphological Analysis System for the Moroccan Dialect: Design and Evaluation</h5>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>Characteristics and Tools for Analyzing the Moroccan Dialect</h5>
-        <p class="article-meta">Date: Friday 8 November 2024<br>
-          Seminar at ILC-CNR, Pisa, Italy</p>
-        <p class="article-authors">Presenter: Nadia Khlif</p>
-        <a href="Data/AIUCD_2024.pdf" download class="btn btn-outline-success mt-2">Download Slides</a>
-      </div>
+<p class="article-authors">
+Authors: <strong>Nadia Khlif</strong>; Azzedine Mazroui; Ouafae Nahli
+</p>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>Challenges and Progress in Constructing Corpora and Linguistic Tools to Arabic Moroccan Dialect</h5>
-        <p class="article-meta">Date: 7 May 2024<br>
-          AIUCD Workshop Participation <br>
-          I seminari e workshop, organizzati in collaborazione con <strong>CINUM</strong> e <strong>CNR ISTC</strong>.
-        </p>
-        <p class="article-authors">Presenter: Nadia Khlif</p>
-        <a href="Data/Semi_CNR_2024.pdf" download class="btn btn-outline-success mt-2">Download Slides</a>
-      </div>
+<p class="article-meta">
+Book Chapter in: <strong>Smart Technologies for a Sustainable Environment</strong><br>
+Publisher: CRC Press (Taylor & Francis)<br>
+Publication Year: 2026<br>
+Originally presented at STSE 2025<br>
+Conference Date: 23–25 April 2025<br>
+Conference Location: Errachidia, Morocco<br>
 
-      <div class="article-card" data-aos="fade-up" data-aos-duration="1200">
-        <h5>Challenges and Progress in Constructing Arabic Dialect Corpora and Linguistic Tools: A Focus on Moroccan and
-          Tunisian Dialects</h5>
-        <p class="article-meta">Date: 18 December 2023<br>
-          Conference: 2023 7th IEEE Congress on Information Science and Technology (CiSt)
-        </p>
-        <p class="article-authors">Presenter: Nadia Khlif</p>
-        <a href="Data/STSE_2025.pdf" download class="btn btn-outline-success mt-2">Download Slides</a>
-      </div>
-    </section>
-  </div>
+<a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003671602-22/robust-morphological-analysis-system-moroccan-dialect-nadia-khlif-azzedine-mazroui-ouafae-nahli"
+target="_blank" class="btn btn-dark mt-2">View Chapter</a>
+</p>
+</div>
 
-  <!-- AOS and Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>AOS.init();</script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ===== 2025 ===== -->
+<h4 class="mt-4">2025</h4>
 
-  <!-- Footer Section -->
-  <footer class="bg-dark text-white py-4 mt-5">
-    <div class="container text-center">
-      <p>&copy; 2025 ILC4CWALM — All rights reserved | Design, development, management and maintenance by Nadia Khlif
-        (CNR-ILC) | Web hosting by Netlify.app</p>
-    </div>
-  </footer>
+<div class="article-card" data-aos="fade-up">
+<h5>A Proposed Approach for Extracting Semantic and Lexical Relations for Low-Resource Languages: A Case Study of Darija</h5>
 
-  <!-- FontAwesome Icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<p class="article-authors">
+Authors: Said Belbachir; <strong>Nadia Khlif</strong>; Mohamed Chahhou; Mohammed El Mohajir; Azzeddine Mazroui; Ouafae Nahli
+</p>
+
+<p class="article-meta">
+Published in: <strong>2025 IEEE 8th Congress on Information Science and Technology (CiSt)</strong><br>
+Conference Date: 04–10 October 2025<br>
+Conference Location: Marrakech, Morocco<br>
+Publisher: IEEE<br>
+DOI:
+<a href="https://doi.org/10.1109/CiSt65886.2025.11224229" target="_blank">
+10.1109/CiSt65886.2025.11224229
+</a>
+
+<br>
+<a href="https://ieeexplore.ieee.org/document/11224229" target="_blank" class="btn btn-dark mt-2">
+View Publication
+</a>
+</p>
+</div>
+
+<div class="article-card" data-aos="fade-up">
+<h5>Enhancing Arabic Dialect Analysis: Introducing DIMORPH for Darija</h5>
+
+<p class="article-authors">
+Authors: <strong>Nadia Khlif</strong>; Azzedine Mazroui; Ouafae Nahli
+</p>
+
+<p class="article-meta">
+Journal: Lingue e Linguaggio – Società editrice il Mulino<br>
+Published: 3 June 2025<br>
+
+<a href="https://www.rivisteweb.it/doi/10.1418/116951" target="_blank" class="btn btn-dark mt-2">
+View Article
+</a>
+</p>
+</div>
+
+<!-- ===== 2023 ===== -->
+<h4 class="mt-4">2023</h4>
+
+<div class="article-card" data-aos="fade-up">
+<h5>Challenges and Progress in Constructing Arabic Dialect Corpora and Linguistic Tools: A Focus on Moroccan and Tunisian Dialects</h5>
+
+<p class="article-authors">
+Authors: Ouafae Nahli; Elisa Gugliotta; <strong>Nadia Khlif</strong>; Benotto Giulia
+</p>
+
+<p class="article-meta">
+Conference: IEEE CiSt 2023<br>
+
+<a href="https://ieeexplore.ieee.org/document/10410009" target="_blank" class="btn btn-dark mt-2">
+View Publication
+</a>
+</p>
+</div>
+
+<!-- ================= PRESENTATIONS ================= -->
+<h2 class="mt-5 mb-4">Presentations</h2>
+
+<div class="article-card" data-aos="fade-up">
+<h5>A Robust Morphological Analysis System for the Moroccan Dialect</h5>
+
+<p class="article-meta">
+Conference: STSE 2025 – International Conference on Smart Technologies for Sustainable Environment<br>
+Conference Date: 23–25 April 2025<br>
+Location: Errachidia, Morocco
+</p>
+
+<p class="article-authors">
+Presenter: <strong>Nadia Khlif</strong>
+</p>
+
+<a href="Data/STSE_2025.pdf" download class="btn btn-outline-success mt-2">
+Download Slides
+</a>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4 mt-5">
+<div class="container text-center">
+<p>
+© 2025 ILC4CWALM — All rights reserved |
+Design, development, management and maintenance by Nadia Khlif (CNR-ILC) |
+Web hosting by Netlify.app
+</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-
 </html>
